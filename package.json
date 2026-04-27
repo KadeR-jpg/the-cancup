@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
+    "build": "wrangler d1 migrations apply cancup --remote; vite build",
     "preview": "vite preview",
     "cf:dev": "vite build && wrangler dev",
     "deploy": "vite build && wrangler deploy",

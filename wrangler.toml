@@ -10,4 +10,4 @@ directory = ".svelte-kit/cloudflare"
 binding       = "DB"
 database_name = "cancup"
 # Replace with your real ID after running: wrangler d1 create cancup
-database_id   = "00000000-0000-0000-0000-000000000000"
+database_id   = "efc17e41-3580-43eb-8d42-6532514ff62f"
